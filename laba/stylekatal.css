@@ -1,0 +1,108 @@
+/* Стили для страницы каталога товаров */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.product {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.product:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s ease;
+}
+
+
+
+.product-image {
+    flex: 1;
+    width: 200px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+/* Стили для кнопки "Добавить в корзину" */
+.add-to-cart {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #034ab6;
+}
+
+.product h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #333;
+    font-size: 50pt;
+    color: white;
+}
+
+/* Style paragraphs within main */
+/* .main p {
+    text-align: justify;
+} */
+
+/* Style links within main */
+.main a {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+/* Add hover styles for specific elements in main */
+
+.main a:hover {
+    background-color: #111;
+    margin: 20px;
+}
+
+.main h2:hover {
+    text-decoration: underline;
+}

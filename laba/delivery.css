@@ -1,0 +1,42 @@
+/* Добавьте общие стили из предыдущих ответов, если необходимо */
+/* Добавьте новые стили, если необходимо */
+
+.delivery,
+.shipping-time,
+.payment-methods,
+.security {
+    margin: 20px;
+    padding: 20px;
+    border: 0px;
+}
+
+.delivery h2,
+.payment-methods h2,
+.shipping-time h2,
+.security h2 {
+    font-size: 24px;
+}
+
+.delivery p,
+.payment-methods p,
+.shipping-time p,
+.security p {
+    font-size: 24px;
+}
+
+.delivery ul,
+.payment-methods ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #A9A9A9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}

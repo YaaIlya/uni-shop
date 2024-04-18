@@ -1,0 +1,59 @@
+/* Стили для страницы с акциями */
+/* Добавьте общие стили из предыдущих ответов, если необходимо */
+/* Добавьте новые стили, если необходимо */
+
+.sale-item {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.sale-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sale-item h2,
+.sale-item p {
+    font-size: 22px;
+}
+
+
+.sale-image {
+    flex: 1;
+    max-width: 200px;
+}
+
+.sale-info {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.sale-item h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.sale-item p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.add-to-cart {
+    background-color: #b42b2b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    ;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
